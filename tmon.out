@@ -1,0 +1,177 @@
+#fOrTyTwO
+$hz=100;
+$XS_VERSION='DProf 20000000.00_00';
+# All values are given in HZ
+$over_utime=1; $over_stime=0; $over_rtime=1;
+$over_tests=10000;
+$rrun_utime=11; $rrun_stime=1; $rrun_rtime=14;
+$total_marks=78                                                                                                                                                                                  
+
+PART2
+@ 2 0 2
+& 1 Carp longmess_heavy
+* 1
+@ 3 0 3
+& 2 ExtUtils::MM_Unix init_main
+* 2
+& 3 ExtUtils::MM_Unix prefixify
+* 3
+& 4 ExtUtils::MM_Unix parse_version
+* 4
+& 5 ExtUtils::MM_Unix path
+* 5
+@ 1 0 1
+& 6 ExtUtils::MM_Unix find_perl
+* 6
+& 7 ExtUtils::MM_Unix file_name_is_absolute
+* 7
+& 8 ExtUtils::MM_Unix maybe_command
+* 8
+@ 0 0 1
+& 9 ExtUtils::MM_Unix init_dirscan
+* 9
+& a ExtUtils::MM_Unix lsdir
+* a
+& b ExtUtils::MM_Unix libscan
+* b
+@ 0 0 1
+& c ExtUtils::MM_Unix replace_manpage_separator
+* c
+& d ExtUtils::MM_Unix init_others
+* d
+& e ExtUtils::MM_Unix extliblist
+* e
+@ 1 0 1
+& f ExtUtils::MM_Unix post_initialize
+* f
+& 10 ExtUtils::MM_Unix nicetext
+* 10
+& 11 ExtUtils::MM_Unix const_config
+* 11
+& 12 ExtUtils::MM_Unix constants
+* 12
+& 13 ExtUtils::MM_Unix perm_rw
+* 13
+& 14 ExtUtils::MM_Unix perm_rwx
+* 14
+@ 1 0 1
+& 15 ExtUtils::MM_Unix has_link_code
+* 15
+& 16 ExtUtils::MM_Unix export_list
+* 16
+& 17 ExtUtils::MM_Unix perl_archive
+* 17
+& 18 ExtUtils::MM_Unix perl_archive_after
+* 18
+& 19 ExtUtils::MM_Unix tool_autosplit
+* 19
+& 1a ExtUtils::MM_Unix tool_xsubpp
+* 1a
+& 1b ExtUtils::MM_Unix needs_linking
+* 1b
+& 1c ExtUtils::MM_Unix tools_other
+* 1c
+& 1d ExtUtils::MM_Unix dist
+* 1d
+& 1e ExtUtils::MM_Unix macro
+* 1e
+& 1f ExtUtils::MM_Unix depend
+* 1f
+& 20 ExtUtils::MM_Unix cflags
+* 20
+& 21 ExtUtils::MM_Unix const_loadlibs
+* 21
+& 22 ExtUtils::MM_Unix const_cccmd
+* 22
+@ 1 0 1
+& 23 ExtUtils::MM_Unix post_constants
+* 23
+& 24 ExtUtils::MM_Unix pasthru
+* 24
+& 25 ExtUtils::MM_Unix c_o
+* 25
+& 26 ExtUtils::MM_Unix xs_c
+* 26
+& 27 ExtUtils::MM_Unix xs_o
+* 27
+& 28 ExtUtils::MM_Unix top_targets
+* 28
+& 29 ExtUtils::MM_Unix dir_target
+* 29
+& 2a ExtUtils::MM_Unix linkext
+* 2a
+& 2b ExtUtils::MM_Unix dlsyms
+* 2b
+& 2c ExtUtils::MM_Unix dynamic
+* 2c
+& 2d ExtUtils::MM_Unix dynamic_bs
+* 2d
+& 2e ExtUtils::MM_Unix dynamic_lib
+* 2e
+& 2f ExtUtils::MM_Unix static
+* 2f
+& 30 ExtUtils::MM_Unix static_lib
+* 30
+& 31 ExtUtils::MM_Unix htmlifypods
+* 31
+@ 1 0 1
+& 32 ExtUtils::MM_Unix manifypods
+* 32
+& 33 ExtUtils::MM_Unix perl_script
+* 33
+& 34 ExtUtils::MM_Unix processPL
+* 34
+& 35 ExtUtils::MM_Unix installbin
+* 35
+& 36 ExtUtils::MM_Unix subdirs
+* 36
+& 37 ExtUtils::MM_Unix clean
+* 37
+& 38 ExtUtils::MM_Unix realclean
+* 38
+& 39 ExtUtils::MM_Unix dist_basics
+* 39
+& 3a ExtUtils::MM_Unix dist_core
+* 3a
+& 3b ExtUtils::MM_Unix dist_dir
+* 3b
+& 3c ExtUtils::MM_Unix dist_test
+* 3c
+& 3d ExtUtils::MM_Unix dist_ci
+* 3d
+& 3e ExtUtils::MM_Unix install
+* 3e
+& 3f ExtUtils::MM_Unix force
+* 3f
+@ 1 0 1
+& 40 ExtUtils::MM_Unix perldepend
+* 40
+& 41 ExtUtils::MM_Unix makefile
+* 41
+& 42 ExtUtils::MM_Unix staticmake
+* 42
+& 43 ExtUtils::MM_Unix makeaperl
+* 43
+@ 0 1 1
+& 44 File::Glob GLOB_BRACE
+* 44
+& 45 File::Glob GLOB_NOMAGIC
+* 45
+& 46 File::Glob GLOB_QUOTE
+* 46
+& 47 File::Glob GLOB_TILDE
+* 47
+& 48 File::Glob GLOB_ALPHASORT
+* 48
+& 49 Exporter import
+* 49
+& 4a ExtUtils::MM_Unix test
+* 4a
+& 4b ExtUtils::MM_Unix test_via_script
+* 4b
+& 4c ExtUtils::MM_Unix ppd
+* 4c
+& 4d ExtUtils::MM_Unix pm_to_blib
+* 4d
+& 4e ExtUtils::MM_Unix postamble
+* 4e
