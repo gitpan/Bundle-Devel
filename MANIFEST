@@ -1,8 +1,9 @@
 Changes
+lib/Bundle/Devel.pm
 LICENSE
-MANIFEST
 Makefile.PL
 Makefile.PL.cvp
+MANIFEST			This list of files
 README
-lib/Bundle/Devel.pm
 tmon.out
+META.yml                                Module meta-data (added by MakeMaker)

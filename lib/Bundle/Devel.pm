@@ -2,7 +2,7 @@ package Bundle::Devel;
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = 0.1;
+	$VERSION = 0.2;
 }
 
 1;
@@ -21,17 +21,19 @@ C<perl -MCPAN -e 'install Bundle::Devel'>
 
 Devel::DProf    - Profiling tool
 
+Devel::Profile  - Another profiler
+
 Devel::Cover    - Currently the prefered coverage tool
 
 Devel::Coverage - Newer, but somewhat imature coverage tool
-
-That's the basics for me, but if you want something added, just let
-me know, or better file a bug against the package.
 
 =head1 DESCRIPTION
 
 Let's just say I'm sick of installing the Devel:: modules on at a time.
 This bundle installs most of the common Devel:: modules in one go.
+
+That's the basics for me, but if you want something added, just let
+me know, or better file a bug against the package.
 
 =head1 SUPPORT
 

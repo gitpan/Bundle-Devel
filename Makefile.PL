@@ -7,6 +7,7 @@ WriteMakefile(
 		'Devel::DProf'    => 0,
 		'Devel::Cover'    => 0,
 		'Devel::Coverage' => 0,
+		'Devel::Profile'  => 0,
 	},
 	($] >= 5.005) ? (
 		'AUTHOR'     => 'Adam Kennedy (cpan@ali.as)',
